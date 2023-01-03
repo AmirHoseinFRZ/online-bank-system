@@ -1,0 +1,21 @@
+Transmission    90101026    + 1000.0
+Transmission    90101026    + 500.0
+Transmission    90101026    + 500.0
+Transmission    90101026    + 500.0
+Transmission    90101026    + 500.0
+Transmission    90101026    + 500.0
+Transmission    54936233    + 10801.0
+Transmission    38122577    + 2700.0
+Transmission    35967080    + 11000.0
+Transmission    97079157    + 12000.0
+Transmission    82186323    + 1000.0
+Transmission    82453265    + 1000.0
+Transmission    82186323    + 11000.0
+payment    - 500.0
+payment    - 500.0
+payment    - 500.0
+payment    - 500.0
+payment    - 500.0
+payment    - 500.0
+payment    1234    - 1000.0
+loan    + 10000.0

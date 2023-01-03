@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="500.0" style="-fx-background-color: #09094f;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.AfterSignUpButton">
+   <left>
+      <AnchorPane prefHeight="600.0" prefWidth="521.0" BorderPane.alignment="CENTER">
+         <children>
+            <Line endX="371.79998779296875" endY="-2.100008010864258" layoutX="112.0" layoutY="14.0" startX="-98.90708923339844" startY="-2.100008010864258" strokeWidth="5.0">
+               <stroke>
+                  <LinearGradient endX="1.0" endY="1.0">
+                     <stops>
+                        <Stop>
+                           <color>
+                              <Color red="1.0" green="0.8313725590705872" />
+                           </color>
+                        </Stop>
+                        <Stop offset="1.0">
+                           <color>
+                              <Color red="0.929411768913269" green="0.3803921639919281" blue="0.29411765933036804" />
+                           </color>
+                        </Stop>
+                     </stops>
+                  </LinearGradient>
+               </stroke>
+            </Line>
+            <Line endX="371.79998779296875" layoutX="115.0" layoutY="586.0" startX="-101.90708923339844" strokeWidth="5.0">
+               <stroke>
+                  <LinearGradient endX="1.0" endY="1.0">
+                     <stops>
+                        <Stop>
+                           <color>
+                              <Color />
+                           </color>
+                        </Stop>
+                        <Stop offset="0.007633587786259542">
+                           <color>
+                              <Color red="1.0" green="0.8313725590705872" />
+                           </color>
+                        </Stop>
+                        <Stop offset="1.0">
+                           <color>
+                              <Color red="0.929411768913269" green="0.3803921639919281" blue="0.29411765933036804" />
+                           </color>
+                        </Stop>
+                     </stops>
+                  </LinearGradient>
+               </stroke>
+            </Line>
+            <Line endX="-86.90708923339844" endY="358.4000244140625" layoutX="100.0" layoutY="226.0" startX="-86.90708923339844" startY="-211.60000610351562" strokeWidth="5.0">
+               <stroke>
+                  <LinearGradient endX="1.0" endY="1.0">
+                     <stops>
+                        <Stop>
+                           <color>
+                              <Color red="1.0" green="0.8313725590705872" />
+                           </color>
+                        </Stop>
+                        <Stop offset="1.0">
+                           <color>
+                              <Color red="0.929411768913269" green="0.3803921639919281" blue="0.29411765933036804" />
+                           </color>
+                        </Stop>
+                     </stops>
+                  </LinearGradient>
+               </stroke>
+            </Line>
+            <Line endX="192.29998779296875" endY="469.9644775390625" layoutX="294.0" layoutY="111.0" startX="192.29998779296875" startY="-99.10000610351562" strokeWidth="5.0">
+               <stroke>
+                  <LinearGradient endX="1.0" endY="1.0">
+                     <stops>
+                        <Stop>
+                           <color>
+                              <Color />
+                           </color>
+                        </Stop>
+                        <Stop offset="0.007633587786259542">
+                           <color>
+                              <Color red="1.0" green="0.8313725590705872" />
+                           </color>
+                        </Stop>
+                        <Stop offset="1.0">
+                           <color>
+                              <Color red="0.929411768913269" green="0.3803921639919281" blue="0.29411765933036804" />
+                           </color>
+                        </Stop>
+                     </stops>
+                  </LinearGradient>
+               </stroke>
+            </Line>
+            <Label alignment="CENTER" layoutX="64.0" layoutY="68.0" prefHeight="59.0" prefWidth="368.0" text="Please enter your username and email">
+               <font>
+                  <Font name="Niagara Solid" size="38.0" />
+               </font>
+               <textFill>
+                  <LinearGradient endX="1.0" endY="1.0">
+                     <stops>
+                        <Stop>
+                           <color>
+                              <Color red="1.0" green="0.8313725590705872" />
+                           </color>
+                        </Stop>
+                        <Stop offset="1.0">
+                           <color>
+                              <Color red="0.929411768913269" green="0.3803921639919281" blue="0.29411765933036804" />
+                           </color>
+                        </Stop>
+                     </stops>
+                  </LinearGradient>
+               </textFill>
+            </Label>
+            <Label alignment="CENTER" layoutX="62.0" layoutY="127.0" prefHeight="59.0" prefWidth="371.0" text="and the password you require!">
+               <font>
+                  <Font name="Niagara Solid" size="38.0" />
+               </font>
+               <textFill>
+                  <LinearGradient endX="1.0" endY="1.0">
+                     <stops>
+                        <Stop>
+                           <color>
+                              <Color red="1.0" green="0.8313725590705872" />
+                           </color>
+                        </Stop>
+                        <Stop offset="1.0">
+                           <color>
+                              <Color red="0.929411768913269" green="0.3803921639919281" blue="0.29411765933036804" />
+                           </color>
+                        </Stop>
+                     </stops>
+                  </LinearGradient>
+               </textFill>
+            </Label>
+            <Label layoutX="62.0" layoutY="244.0" text="username:">
+               <font>
+                  <Font name="Niagara Solid" size="22.0" />
+               </font>
+               <textFill>
+                  <LinearGradient endX="1.0" endY="1.0">
+                     <stops>
+                        <Stop>
+                           <color>
+                              <Color red="1.0" green="0.8313725590705872" />
+                           </color>
+                        </Stop>
+                        <Stop offset="1.0">
+                           <color>
+                              <Color red="0.929411768913269" green="0.3803921639919281" blue="0.29411765933036804" />
+                           </color>
+                        </Stop>
+                     </stops>
+                  </LinearGradient>
+               </textFill>
+            </Label>
+            <Label layoutX="64.0" layoutY="333.0" prefHeight="26.0" prefWidth="33.0" text="email:">
+               <font>
+                  <Font name="Niagara Solid" size="22.0" />
+               </font>
+               <textFill>
+                  <LinearGradient endX="1.0" endY="1.0">
+                     <stops>
+                        <Stop>
+                           <color>
+                              <Color red="1.0" green="0.8313725590705872" />
+                           </color>
+                        </Stop>
+                        <Stop offset="1.0">
+                           <color>
+                              <Color red="0.929411768913269" green="0.3803921639919281" blue="0.29411765933036804" />
+                           </color>
+                        </Stop>
+                     </stops>
+                  </LinearGradient>
+               </textFill>
+            </Label>
+            <Label layoutX="63.0" layoutY="386.0" text="password:">
+               <textFill>
+                  <LinearGradient endX="1.0" endY="1.0">
+                     <stops>
+                        <Stop>
+                           <color>
+                              <Color red="1.0" green="0.8313725590705872" />
+                           </color>
+                        </Stop>
+                        <Stop offset="1.0">
+                           <color>
+                              <Color red="0.929411768913269" green="0.3803921639919281" blue="0.29411765933036804" />
+                           </color>
+                        </Stop>
+                     </stops>
+                  </LinearGradient>
+               </textFill>
+               <font>
+                  <Font name="Niagara Solid" size="22.0" />
+               </font>
+            </Label>
+            <Label layoutX="62.0" layoutY="434.0" text="confirm password:">
+               <textFill>
+                  <LinearGradient endX="1.0" endY="1.0">
+                     <stops>
+                        <Stop>
+                           <color>
+                              <Color red="1.0" green="0.8313725590705872" />
+                           </color>
+                        </Stop>
+                        <Stop offset="1.0">
+                           <color>
+                              <Color red="0.929411768913269" green="0.3803921639919281" blue="0.29411765933036804" />
+                           </color>
+                        </Stop>
+                     </stops>
+                  </LinearGradient>
+               </textFill>
+               <font>
+                  <Font name="Niagara Solid" size="22.0" />
+               </font>
+            </Label>
+            <Button fx:id="continueButton" alignment="CENTER" layoutX="206.0" layoutY="499.0" mnemonicParsing="false" onAction="#continueButton" prefHeight="47.0" prefWidth="103.0" style="-fx-background-color: #ffd400;" text="continue" textFill="#09094f">
+               <font>
+                  <Font name="Niagara Solid" size="26.0" />
+               </font>
+            </Button>
+            <Label fx:id="label" alignment="CENTER" layoutX="58.0" layoutY="49.0" prefHeight="18.0" prefWidth="380.0" textFill="#ed614b">
+               <font>
+                  <Font name="Niagara Solid" size="25.0" />
+               </font>
+            </Label>
+            <Label layoutX="60.0" layoutY="198.0" text="national ID:">
+               <textFill>
+                  <LinearGradient endX="1.0" endY="1.0">
+                     <stops>
+                        <Stop>
+                           <color>
+                              <Color red="1.0" green="0.8313725590705872" />
+                           </color>
+                        </Stop>
+                        <Stop offset="1.0">
+                           <color>
+                              <Color red="0.929411768913269" green="0.3803921639919281" blue="0.29411765933036804" />
+                           </color>
+                        </Stop>
+                     </stops>
+                  </LinearGradient>
+               </textFill>
+               <font>
+                  <Font name="Niagara Solid" size="22.0" />
+               </font>
+            </Label>
+            <TextField fx:id="national" layoutX="174.0" layoutY="198.0" onAction="#national" prefHeight="26.0" prefWidth="270.0" style="-fx-background-color: #baaa61;">
+               <font>
+                  <Font name="Bodoni MT Black" size="12.0" />
+               </font></TextField>
+            <TextField fx:id="username" layoutX="173.0" layoutY="244.0" onAction="#username" prefHeight="26.0" prefWidth="270.0" style="-fx-background-color: #baaa61;">
+               <font>
+                  <Font name="Bodoni MT Black" size="12.0" />
+               </font></TextField>
+            <TextField fx:id="email" layoutX="173.0" layoutY="334.0" onAction="#email" prefHeight="26.0" prefWidth="270.0" style="-fx-background-color: #baaa61;">
+               <font>
+                  <Font name="Bodoni MT Black" size="12.0" />
+               </font></TextField>
+            <PasswordField fx:id="password" layoutX="173.0" layoutY="387.0" onAction="#password" prefHeight="26.0" prefWidth="270.0" style="-fx-background-color: #baaa61;">
+               <font>
+                  <Font name="Bodoni MT Black" size="12.0" />
+               </font></PasswordField>
+            <PasswordField fx:id="confirmPassword" layoutX="174.0" layoutY="435.0" onAction="#confirmPassword" prefHeight="26.0" prefWidth="270.0" style="-fx-background-color: #baaa61;">
+               <font>
+                  <Font name="Bodoni MT Black" size="12.0" />
+               </font></PasswordField>
+            <Label layoutX="61.0" layoutY="286.0" text="Telephone:">
+               <textFill>
+                  <LinearGradient endX="1.0" endY="1.0">
+                     <stops>
+                        <Stop>
+                           <color>
+                              <Color red="1.0" green="0.8313725590705872" />
+                           </color>
+                        </Stop>
+                        <Stop offset="1.0">
+                           <color>
+                              <Color red="0.929411768913269" green="0.3803921639919281" blue="0.29411765933036804" />
+                           </color>
+                        </Stop>
+                     </stops>
+                  </LinearGradient>
+               </textFill>
+               <font>
+                  <Font name="Niagara Solid" size="22.0" />
+               </font>
+            </Label>
+            <TextField fx:id="telephone" layoutX="173.0" layoutY="287.0" onAction="#telephone" prefHeight="26.0" prefWidth="270.0" style="-fx-background-color: #baaa61;">
+               <font>
+                  <Font name="Bodoni MT Black" size="12.0" />
+               </font></TextField>
+         </children></AnchorPane>
+   </left>
+</BorderPane>

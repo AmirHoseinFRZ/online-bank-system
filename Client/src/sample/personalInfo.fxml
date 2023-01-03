@@ -1,0 +1,474 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="500.0" style="-fx-background-color: #09094f;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.PersonalInfo">
+    <top>
+        <AnchorPane prefHeight="600.0" prefWidth="529.0" BorderPane.alignment="CENTER">
+            <children>
+                <Line endX="371.79998779296875" endY="-2.100008010864258" layoutX="112.0" layoutY="14.0" startX="-98.90708923339844" startY="-2.100008010864258" strokeWidth="5.0">
+                    <stroke>
+                        <LinearGradient endX="1.0" endY="1.0">
+                            <stops>
+                                <Stop>
+                                    <color>
+                                        <Color red="1.0" green="0.8313725590705872" />
+                                    </color>
+                                </Stop>
+                                <Stop offset="1.0">
+                                    <color>
+                                        <Color red="0.929411768913269" green="0.3803921639919281" blue="0.29411765933036804" />
+                                    </color>
+                                </Stop>
+                            </stops>
+                        </LinearGradient>
+                    </stroke>
+                </Line>
+                <Line endX="371.79998779296875" layoutX="115.0" layoutY="586.0" startX="-101.90708923339844" strokeWidth="5.0">
+                    <stroke>
+                        <LinearGradient endX="1.0" endY="1.0">
+                            <stops>
+                                <Stop>
+                                    <color>
+                                        <Color red="1.0" green="0.8313725590705872" />
+                                    </color>
+                                </Stop>
+                                <Stop offset="1.0">
+                                    <color>
+                                        <Color red="0.929411768913269" green="0.3803921639919281" blue="0.29411765933036804" />
+                                    </color>
+                                </Stop>
+                            </stops>
+                        </LinearGradient>
+                    </stroke>
+                </Line>
+                <Line endX="-86.90708923339844" endY="358.4000244140625" layoutX="100.0" layoutY="226.0" startX="-86.90708923339844" startY="-211.60000610351562" strokeWidth="5.0">
+                    <stroke>
+                        <LinearGradient endX="1.0" endY="1.0">
+                            <stops>
+                                <Stop>
+                                    <color>
+                                        <Color red="1.0" green="0.8313725590705872" />
+                                    </color>
+                                </Stop>
+                                <Stop offset="1.0">
+                                    <color>
+                                        <Color red="0.929411768913269" green="0.3803921639919281" blue="0.29411765933036804" />
+                                    </color>
+                                </Stop>
+                            </stops>
+                        </LinearGradient>
+                    </stroke>
+                </Line>
+                <Line endX="192.29998779296875" endY="469.9644775390625" layoutX="294.0" layoutY="111.0" startX="192.29998779296875" startY="-99.10000610351562" strokeWidth="5.0">
+                    <stroke>
+                        <LinearGradient endX="1.0" endY="1.0">
+                            <stops>
+                                <Stop>
+                                    <color>
+                                        <Color red="1.0" green="0.8313725590705872" />
+                                    </color>
+                                </Stop>
+                                <Stop offset="1.0">
+                                    <color>
+                                        <Color red="0.929411768913269" green="0.3803921639919281" blue="0.29411765933036804" />
+                                    </color>
+                                </Stop>
+                            </stops>
+                        </LinearGradient>
+                    </stroke>
+                </Line>
+                <Button fx:id="button" layoutX="21.0" layoutY="40.0" mnemonicParsing="false" onMouseMoved="#button" prefHeight="526.0" prefWidth="458.0" style="-fx-background-color: #09094f;" />
+                <Label layoutX="42.0" layoutY="48.0" prefHeight="28.0" prefWidth="50.0" text="Name:">
+                    <font>
+                        <Font name="Niagara Solid" size="30.0" />
+                    </font>
+                    <textFill>
+                        <LinearGradient endX="1.0" endY="1.0">
+                            <stops>
+                                <Stop>
+                                    <color>
+                                        <Color red="1.0" green="0.8313725590705872" />
+                                    </color>
+                                </Stop>
+                                <Stop offset="1.0">
+                                    <color>
+                                        <Color red="0.929411768913269" green="0.3803921639919281" blue="0.29411765933036804" />
+                                    </color>
+                                </Stop>
+                            </stops>
+                        </LinearGradient>
+                    </textFill>
+                </Label>
+                <Label layoutX="42.0" layoutY="82.0" text="National ID:">
+                    <font>
+                        <Font name="Niagara Solid" size="30.0" />
+                    </font>
+                    <textFill>
+                        <LinearGradient endX="1.0" endY="1.0">
+                            <stops>
+                                <Stop>
+                                    <color>
+                                        <Color red="1.0" green="0.8313725590705872" />
+                                    </color>
+                                </Stop>
+                                <Stop offset="1.0">
+                                    <color>
+                                        <Color red="0.929411768913269" green="0.3803921639919281" blue="0.29411765933036804" />
+                                    </color>
+                                </Stop>
+                            </stops>
+                        </LinearGradient>
+                    </textFill>
+                </Label>
+                <Label layoutX="42.0" layoutY="150.0" text="Email:">
+                    <font>
+                        <Font name="Niagara Solid" size="30.0" />
+                    </font>
+                    <textFill>
+                        <LinearGradient endX="1.0" endY="1.0">
+                            <stops>
+                                <Stop>
+                                    <color>
+                                        <Color red="1.0" green="0.8313725590705872" />
+                                    </color>
+                                </Stop>
+                                <Stop offset="1.0">
+                                    <color>
+                                        <Color red="0.929411768913269" green="0.3803921639919281" blue="0.29411765933036804" />
+                                    </color>
+                                </Stop>
+                            </stops>
+                        </LinearGradient>
+                    </textFill>
+                </Label>
+                <Label layoutX="42.0" layoutY="116.0" text="Telephone:">
+                    <font>
+                        <Font name="Niagara Solid" size="30.0" />
+                    </font>
+                    <textFill>
+                        <LinearGradient endX="1.0" endY="1.0">
+                            <stops>
+                                <Stop>
+                                    <color>
+                                        <Color red="1.0" green="0.8313725590705872" />
+                                    </color>
+                                </Stop>
+                                <Stop offset="1.0">
+                                    <color>
+                                        <Color red="0.929411768913269" green="0.3803921639919281" blue="0.29411765933036804" />
+                                    </color>
+                                </Stop>
+                            </stops>
+                        </LinearGradient>
+                    </textFill>
+                </Label>
+                <Label layoutX="42.0" layoutY="184.0" text="Account's number:">
+                    <font>
+                        <Font name="Niagara Solid" size="30.0" />
+                    </font>
+                    <textFill>
+                        <LinearGradient endX="1.0" endY="1.0">
+                            <stops>
+                                <Stop>
+                                    <color>
+                                        <Color red="1.0" green="0.8313725590705872" />
+                                    </color>
+                                </Stop>
+                                <Stop offset="1.0">
+                                    <color>
+                                        <Color red="0.929411768913269" green="0.3803921639919281" blue="0.29411765933036804" />
+                                    </color>
+                                </Stop>
+                            </stops>
+                        </LinearGradient>
+                    </textFill>
+                </Label>
+                <Label layoutX="42.0" layoutY="218.0" text="Account's alias:">
+                    <font>
+                        <Font name="Niagara Solid" size="30.0" />
+                    </font>
+                    <textFill>
+                        <LinearGradient endX="1.0" endY="1.0">
+                            <stops>
+                                <Stop>
+                                    <color>
+                                        <Color red="1.0" green="0.8313725590705872" />
+                                    </color>
+                                </Stop>
+                                <Stop offset="1.0">
+                                    <color>
+                                        <Color red="0.929411768913269" green="0.3803921639919281" blue="0.29411765933036804" />
+                                    </color>
+                                </Stop>
+                            </stops>
+                        </LinearGradient>
+                    </textFill>
+                </Label>
+                <Label layoutX="42.0" layoutY="252.0" text="Account's kind:">
+                    <font>
+                        <Font name="Niagara Solid" size="30.0" />
+                    </font>
+                    <textFill>
+                        <LinearGradient endX="1.0" endY="1.0">
+                            <stops>
+                                <Stop>
+                                    <color>
+                                        <Color red="1.0" green="0.8313725590705872" />
+                                    </color>
+                                </Stop>
+                                <Stop offset="1.0">
+                                    <color>
+                                        <Color red="0.929411768913269" green="0.3803921639919281" blue="0.29411765933036804" />
+                                    </color>
+                                </Stop>
+                            </stops>
+                        </LinearGradient>
+                    </textFill>
+                </Label>
+                <Label fx:id="name" layoutX="212.0" layoutY="48.0" prefHeight="34.0" prefWidth="215.0">
+                    <font>
+                        <Font name="Niagara Solid" size="30.0" />
+                    </font>
+                    <textFill>
+                        <LinearGradient endX="1.0" endY="1.0">
+                            <stops>
+                                <Stop>
+                                    <color>
+                                        <Color red="1.0" green="0.8313725590705872" />
+                                    </color>
+                                </Stop>
+                                <Stop offset="1.0">
+                                    <color>
+                                        <Color red="0.929411768913269" green="0.3803921639919281" blue="0.29411765933036804" />
+                                    </color>
+                                </Stop>
+                            </stops>
+                        </LinearGradient>
+                    </textFill>
+                </Label>
+                <Label fx:id="national" layoutX="212.0" layoutY="82.0" prefHeight="34.0" prefWidth="215.0">
+                    <font>
+                        <Font name="Niagara Solid" size="30.0" />
+                    </font>
+                    <textFill>
+                        <LinearGradient endX="1.0" endY="1.0">
+                            <stops>
+                                <Stop>
+                                    <color>
+                                        <Color red="1.0" green="0.8313725590705872" />
+                                    </color>
+                                </Stop>
+                                <Stop offset="1.0">
+                                    <color>
+                                        <Color red="0.929411768913269" green="0.3803921639919281" blue="0.29411765933036804" />
+                                    </color>
+                                </Stop>
+                            </stops>
+                        </LinearGradient>
+                    </textFill>
+                </Label>
+                <Label fx:id="telephone" layoutX="212.0" layoutY="116.0" prefHeight="18.0" prefWidth="215.0">
+                    <font>
+                        <Font name="Niagara Solid" size="30.0" />
+                    </font>
+                    <textFill>
+                        <LinearGradient endX="1.0" endY="1.0">
+                            <stops>
+                                <Stop>
+                                    <color>
+                                        <Color red="1.0" green="0.8313725590705872" />
+                                    </color>
+                                </Stop>
+                                <Stop offset="1.0">
+                                    <color>
+                                        <Color red="0.929411768913269" green="0.3803921639919281" blue="0.29411765933036804" />
+                                    </color>
+                                </Stop>
+                            </stops>
+                        </LinearGradient>
+                    </textFill>
+                </Label>
+                <Label fx:id="email" layoutX="212.0" layoutY="150.0" prefHeight="18.0" prefWidth="215.0">
+                    <font>
+                        <Font name="Niagara Solid" size="30.0" />
+                    </font>
+                    <textFill>
+                        <LinearGradient endX="1.0" endY="1.0">
+                            <stops>
+                                <Stop>
+                                    <color>
+                                        <Color red="1.0" green="0.8313725590705872" />
+                                    </color>
+                                </Stop>
+                                <Stop offset="1.0">
+                                    <color>
+                                        <Color red="0.929411768913269" green="0.3803921639919281" blue="0.29411765933036804" />
+                                    </color>
+                                </Stop>
+                            </stops>
+                        </LinearGradient>
+                    </textFill>
+                </Label>
+                <Label fx:id="accNo" layoutX="212.0" layoutY="184.0" prefHeight="18.0" prefWidth="215.0">
+                    <font>
+                        <Font name="Niagara Solid" size="30.0" />
+                    </font>
+                    <textFill>
+                        <LinearGradient endX="1.0" endY="1.0">
+                            <stops>
+                                <Stop>
+                                    <color>
+                                        <Color red="1.0" green="0.8313725590705872" />
+                                    </color>
+                                </Stop>
+                                <Stop offset="1.0">
+                                    <color>
+                                        <Color red="0.929411768913269" green="0.3803921639919281" blue="0.29411765933036804" />
+                                    </color>
+                                </Stop>
+                            </stops>
+                        </LinearGradient>
+                    </textFill>
+                </Label>
+                <Label fx:id="alias" layoutX="212.0" layoutY="217.0" prefHeight="34.0" prefWidth="215.0">
+                    <font>
+                        <Font name="Niagara Solid" size="30.0" />
+                    </font>
+                    <textFill>
+                        <LinearGradient endX="1.0" endY="1.0">
+                            <stops>
+                                <Stop>
+                                    <color>
+                                        <Color red="1.0" green="0.8313725590705872" />
+                                    </color>
+                                </Stop>
+                                <Stop offset="1.0">
+                                    <color>
+                                        <Color red="0.929411768913269" green="0.3803921639919281" blue="0.29411765933036804" />
+                                    </color>
+                                </Stop>
+                            </stops>
+                        </LinearGradient>
+                    </textFill>
+                </Label>
+                <Label fx:id="kind" layoutX="212.0" layoutY="252.0" prefHeight="18.0" prefWidth="215.0">
+                    <font>
+                        <Font name="Niagara Solid" size="30.0" />
+                    </font>
+                    <textFill>
+                        <LinearGradient endX="1.0" endY="1.0">
+                            <stops>
+                                <Stop>
+                                    <color>
+                                        <Color red="1.0" green="0.8313725590705872" />
+                                    </color>
+                                </Stop>
+                                <Stop offset="1.0">
+                                    <color>
+                                        <Color red="0.929411768913269" green="0.3803921639919281" blue="0.29411765933036804" />
+                                    </color>
+                                </Stop>
+                            </stops>
+                        </LinearGradient>
+                    </textFill>
+                </Label>
+                <Label fx:id="b" layoutX="42.0" layoutY="286.0" prefHeight="34.0" prefWidth="97.0" text="Balance:">
+                    <font>
+                        <Font name="Niagara Solid" size="30.0" />
+                    </font>
+                    <textFill>
+                        <LinearGradient endX="1.0" endY="1.0">
+                            <stops>
+                                <Stop>
+                                    <color>
+                                        <Color red="1.0" green="0.8313725590705872" />
+                                    </color>
+                                </Stop>
+                                <Stop offset="1.0">
+                                    <color>
+                                        <Color red="0.929411768913269" green="0.3803921639919281" blue="0.29411765933036804" />
+                                    </color>
+                                </Stop>
+                            </stops>
+                        </LinearGradient>
+                    </textFill>
+                </Label>
+                <Label fx:id="balance" layoutX="212.0" layoutY="279.0" prefHeight="18.0" prefWidth="215.0">
+                    <font>
+                        <Font name="Niagara Solid" size="30.0" />
+                    </font>
+                    <textFill>
+                        <LinearGradient endX="1.0" endY="1.0">
+                            <stops>
+                                <Stop>
+                                    <color>
+                                        <Color red="1.0" green="0.8313725590705872" />
+                                    </color>
+                                </Stop>
+                                <Stop offset="1.0">
+                                    <color>
+                                        <Color red="0.929411768913269" green="0.3803921639919281" blue="0.29411765933036804" />
+                                    </color>
+                                </Stop>
+                            </stops>
+                        </LinearGradient>
+                    </textFill>
+                </Label>
+                <TextArea fx:id="transaction" layoutX="22.0" layoutY="363.0" prefHeight="184.0" prefWidth="456.0">
+               <font>
+                  <Font name="Niagara Solid" size="30.0" />
+               </font></TextArea>
+                <Button layoutX="16.0" layoutY="14.0" mnemonicParsing="false" onAction="#back" style="-fx-background-color: #09094f;" text="Back">
+                    <font>
+                        <Font name="Niagara Solid" size="20.0" />
+                    </font>
+                    <textFill>
+                        <LinearGradient endX="1.0" endY="1.0">
+                            <stops>
+                                <Stop>
+                                    <color>
+                                        <Color red="1.0" green="0.8313725590705872" />
+                                    </color>
+                                </Stop>
+                                <Stop offset="1.0">
+                                    <color>
+                                        <Color red="0.929411768913269" green="0.3803921639919281" blue="0.29411765933036804" />
+                                    </color>
+                                </Stop>
+                            </stops>
+                        </LinearGradient>
+                    </textFill>
+                </Button>
+            <Label layoutX="41.0" layoutY="320.0" prefHeight="33.0" prefWidth="102.0" text="Transaction:">
+               <font>
+                  <Font name="Niagara Solid" size="30.0" />
+               </font>
+               <textFill>
+                  <LinearGradient endX="1.0" endY="1.0">
+                     <stops>
+                        <Stop>
+                           <color>
+                              <Color red="1.0" green="0.8313725590705872" />
+                           </color>
+                        </Stop>
+                        <Stop offset="1.0">
+                           <color>
+                              <Color red="0.929411768913269" green="0.3803921639919281" blue="0.29411765933036804" />
+                           </color>
+                        </Stop>
+                     </stops>
+                  </LinearGradient>
+               </textFill>
+            </Label>
+            </children>
+        </AnchorPane>
+    </top>
+    <center>
+        <ListView prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER" />
+    </center>
+</BorderPane>

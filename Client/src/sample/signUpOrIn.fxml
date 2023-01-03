@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="500.0" style="-fx-background-color: #09094f;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.SignUpOrIn">
+   <center>
+      <AnchorPane prefHeight="600.0" prefWidth="527.0" BorderPane.alignment="CENTER">
+         <children>
+            <Line endX="-86.90708923339844" endY="358.4000244140625" layoutX="100.0" layoutY="226.0" startX="-86.90708923339844" startY="-211.60000610351562" strokeWidth="5.0">
+               <stroke>
+                  <LinearGradient endX="1.0" endY="1.0">
+                     <stops>
+                        <Stop>
+                           <color>
+                              <Color red="1.0" green="0.8313725590705872" />
+                           </color>
+                        </Stop>
+                        <Stop offset="1.0">
+                           <color>
+                              <Color red="0.929411768913269" green="0.3803921639919281" blue="0.29411765933036804" />
+                           </color>
+                        </Stop>
+                     </stops>
+                  </LinearGradient>
+               </stroke></Line>
+            <Line endX="371.79998779296875" endY="-2.100008010864258" layoutX="112.0" layoutY="14.0" startX="-98.90708923339844" startY="-2.100008010864258" strokeWidth="5.0">
+               <stroke>
+                  <LinearGradient endX="1.0" endY="1.0">
+                     <stops>
+                        <Stop>
+                           <color>
+                              <Color red="1.0" green="0.8333333134651184" />
+                           </color>
+                        </Stop>
+                        <Stop offset="1.0">
+                           <color>
+                              <Color red="0.929411768913269" green="0.3803921639919281" blue="0.29411765933036804" />
+                           </color>
+                        </Stop>
+                     </stops>
+                  </LinearGradient>
+               </stroke></Line>
+            <Line endX="371.79998779296875" layoutX="115.0" layoutY="586.0" startX="-101.90708923339844" strokeWidth="5.0">
+               <stroke>
+                  <LinearGradient endX="1.0" endY="1.0">
+                     <stops>
+                        <Stop>
+                           <color>
+                              <Color red="1.0" green="0.8333333134651184" />
+                           </color>
+                        </Stop>
+                        <Stop offset="1.0">
+                           <color>
+                              <Color red="0.929411768913269" green="0.3803921639919281" blue="0.29411765933036804" />
+                           </color>
+                        </Stop>
+                     </stops>
+                  </LinearGradient>
+               </stroke></Line>
+            <Line endX="192.29998779296875" endY="-99.10000610351562" layoutX="294.0" layoutY="111.0" startX="192.29998779296875" startY="469.9644775390625" strokeWidth="5.0">
+               <stroke>
+                  <LinearGradient endX="1.0" endY="1.0">
+                     <stops>
+                        <Stop>
+                           <color>
+                              <Color red="1.0" green="0.843137264251709" />
+                           </color>
+                        </Stop>
+                        <Stop offset="1.0">
+                           <color>
+                              <Color red="0.929411768913269" green="0.3803921639919281" blue="0.29411765933036804" />
+                           </color>
+                        </Stop>
+                     </stops>
+                  </LinearGradient>
+               </stroke></Line>
+            <Button fx:id="signInButton" layoutX="165.0" layoutY="417.0" mnemonicParsing="false" onAction="#signIn" prefHeight="70.0" prefWidth="160.0" style="-fx-background-color: #ed614b;" text="Sign in" textFill="#09094f">
+               <font>
+                  <Font name="Niagara Solid" size="33.0" />
+               </font>
+            </Button>
+            <Button fx:id="signUpButton" layoutX="164.0" layoutY="247.0" mnemonicParsing="false" onAction="#signUp" prefHeight="70.0" prefWidth="160.0" style="-fx-background-color: #FFD700;" text="Sign up " textFill="#09094f">
+               <font>
+                  <Font name="Niagara Solid" size="33.0" />
+               </font>
+            </Button>
+            <Label alignment="CENTER" layoutX="145.0" layoutY="212.0" prefHeight="20.0" prefWidth="200.0" text="create an account" textFill="GOLD">
+               <font>
+                  <Font name="Niagara Solid" size="26.0" />
+               </font>
+            </Label>
+            <Label alignment="CENTER" layoutX="97.0" layoutY="377.0" prefHeight="27.0" prefWidth="294.0" text="already have an account? sign in!" textFill="#ed614b">
+               <font>
+                  <Font name="Niagara Solid" size="26.0" />
+               </font>
+            </Label>
+            <Label alignment="CENTER" layoutX="84.0" layoutY="59.0" prefHeight="90.0" prefWidth="326.0" text="Welcome">
+               <font>
+                  <Font name="Gabriola" size="95.0" />
+               </font>
+               <textFill>
+                  <RadialGradient centerX="0.5177777608235677" centerY="0.5" focusAngle="113.03" focusDistance="0.037383141918717167" radius="0.5">
+                     <stops>
+                        <Stop>
+                           <color>
+                              <Color red="1.0" green="0.8333333134651184" />
+                           </color>
+                        </Stop>
+                        <Stop offset="1.0">
+                           <color>
+                              <Color red="0.929411768913269" green="0.3803921639919281" blue="0.29411765933036804" />
+                           </color>
+                        </Stop>
+                     </stops>
+                  </RadialGradient>
+               </textFill>
+            </Label>
+         </children></AnchorPane>
+   </center>
+</BorderPane>
